@@ -1,0 +1,104 @@
+body, ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  height: 90px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  height: 90px;
+  width: 100%;
+  background-color: rgba(38, 208, 201, 0.7);
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left; 
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
+
+.header-right li {
+  float: right; 
+  padding: 33px 20px;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://www.living-web.net/pg/wp-content/uploads/2019/04/new3.png);
+  background: cover;
+}
+
+.container h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  opacity: 0.7;
+  letter-spacing: 2px;
+}
+
+.heading {
+  padding: 20px 30px;
+  text-align: center;
+  border-top: 5px solid #dee7ec;
+}
+
+
+.contact-form {
+  padding-top: 100px;
+}
+
+input,textarea {
+  width: 400px;
+  padding: 20px;
+  margin: 10px 0 30px 0;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+footer {
+  background-color: rgba(38, 208, 201, 0.7);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  height: 90px;
+  width: 100%;
+}
+
+
+.footer-left logo {
+  float: left;
+  height: 100%;
+}
+
+.footer-right li {
+  float: right; 
+  padding: 33px 20px;
+  height: 100%;
+}
+
